@@ -1,7 +1,7 @@
 services:
   - type: web
-    name: my-web-service
+    name: livingrent
     env: python
-    pythonVersion: 3.9  # Update to the desired Python version
+    pythonVersion: 3.10  # Update to the desired Python version
     buildCommand: pip install -r requirements.txt
     startCommand: python app.py
