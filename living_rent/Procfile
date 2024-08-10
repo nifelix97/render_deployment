@@ -1,0 +1,1 @@
+web: gunicorn living_rent.wsgi:application --log-file -
